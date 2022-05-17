@@ -10,19 +10,19 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 Pod::Spec.new do |spec|
 
-  s.name             = "VHTestSDK"
-  s.module_name      = 'VHTestSDK'
-  s.summary          = "VHTestSDK"
+  s.name             = "VHYHTest"
+  s.module_name      = 'VHYHTest'
+  s.summary          = "VHYHTest"
   s.description      = "<<-DESC DESC 测试用的sdk"
 
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.frameworks      = 'Foundation'
   s.requires_arc    = true
   s.platform        = :ios, '9.0'
   s.license         = 'MIT'
 
-  s.author           = { "gc" => "chao.guo@vhall.com" }
-  s.source           = { :git => "git@gitee.com:kangler/vhtest-sdk.git",:tag => s.version.to_s }
+  s.author           = { "gc" => "guochao751082551@163.com" }
+  s.source           = { :git => "git@github.com:SuperGuo751/VHYHTest.git",:tag => s.version.to_s }
   s.homepage         = "https://gitee.com/kangler/vhtest-sdk.git"
 
   s.vendored_frameworks = 'FrameWork/VHLiveBroadcastSDK.framework'
