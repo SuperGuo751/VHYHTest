@@ -6,8 +6,6 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-source 'https://github.com/CocoaPods/Specs.git'
-
 Pod::Spec.new do |spec|
 
   s.name             = "VHYHTest"
@@ -23,7 +21,7 @@ Pod::Spec.new do |spec|
 
   s.author           = { "gc" => "guochao751082551@163.com" }
   s.source           = { :git => "git@github.com:SuperGuo751/VHYHTest.git",:tag => s.version.to_s }
-  s.homepage         = "https://gitee.com/kangler/vhtest-sdk.git"
+  s.homepage         = "https://github.com/SuperGuo751/VHYHTest"
 
   s.vendored_frameworks = 'FrameWork/VHLiveBroadcastSDK.framework'
   s.pod_target_xcconfig = {
